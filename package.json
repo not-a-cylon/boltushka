@@ -1,0 +1,19 @@
+{
+  "name": "boltushka",
+  "version": "1.0.0",
+  "description": "Chat client",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sslukin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.5",
+    "socket.io": "^1.7.3"
+  }
+}

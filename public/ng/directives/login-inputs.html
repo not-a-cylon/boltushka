@@ -1,0 +1,29 @@
+<form class="form-horizontal" ng-submit="sendData()">
+
+	<!-- user handle input box -->
+	<div class="form-group">
+		<label for="Handle" class="col-sm-2 control-label">handle</label>
+		<div class="col-sm-10">
+		<input type="text" class="form-control" id="handleBox" ng-model="handle" name="handle" placeholder="john doe" autofocus>
+		</div>
+	</div>
+
+  	<!-- user room input box -->
+	<div class="form-group">
+		<label for="inputRoom" class="col-sm-2 control-label">room</label>
+		<div class="col-sm-10">
+		<input type="text" class="form-control" id="roomBox" ng-model="room" name="room" placeholder="general">
+		</div>
+	</div>
+
+	<div ng-show="displayAlert" class="alert" ng-class="{'alert-danger':submitFail}">
+		{{alertContent}}
+	</div>
+
+	<!--submit button -->
+	<div class="form-group small-bottom-margin">
+		<div class="col-xs-12 col-sm-12">
+			<input type="submit" class="btn btn-block btn-primary" ng-class="{'disabled':dataSent===true}" value="Join">
+		</div>
+	</div>
+</form>

@@ -1,0 +1,101 @@
+.banner{
+	background-color:darkgrey;
+	height:5vh;
+}
+
+.banner-button{
+	background-color: lightgreen;
+	height:100%;
+	border: 1px solid black;
+	border-radius:3px;
+	text-align:center;
+	padding-left:none;
+	cursor:pointer;
+	user-select:none;
+}
+
+.room-label{
+	text-align:left;
+	font-weight:bold;
+}
+
+
+.chat-log-section{
+	overflow:auto;
+	height:85vh;
+}
+
+.chat-input-section{
+	height:10vh;
+	border:1px solid black;
+	background-color:darkgrey;
+}
+
+.message-component{
+
+}
+
+.message-container{
+	border-radius: 3px;
+	margin-top:2px;
+	margin-bottom:2px;
+	background-color:lightgrey;
+}
+
+.message-icon-wrapper{
+	background-color:darkgrey;
+	max-width:100px;
+	max-height:100px;
+	height:100%;
+}
+
+.message-img{
+	width:100%;
+	height:100%;
+	margin-top:2px;
+	margin-bottom:2px;
+	border-radius:3px;
+}
+
+.message-text-wrapper{
+	font-size: 3vmin;
+}
+
+.message-stat-wrapper{
+	position:relative;
+	width:100%;
+	height:50%;
+}
+.msg-handle{
+	font-size:0.7em;
+	font-weight:bold;
+}
+.msg-username{
+	font-size:0.7em;
+	font-style:italic;
+}
+.msg-time{
+	position:absolute;
+	right:2px;
+	top:2px;
+	font-size:0.7em;
+	font-style:italic;
+}
+
+.message-content-wrapper{
+	width:100%;
+	height:50%;
+}
+.msg-text{
+	padding-left:0.5em;
+	color:darkblue;
+}
+
+.small-margin-top{
+	margin-top:2px;
+}
+
+.debug{
+	background-color:lightblue;
+	color:black;
+}

@@ -1,0 +1,23 @@
+<div class="row message-container" >
+    <!--image section-->
+    <div class="message-component  hidden-xs hidden-sm col-md-1 col-lg-1 message-icon-wrapper">
+        <img class="message-img" src="images/user.png">
+    </div>
+
+    <!--message body-->
+    <div class="message-component message-text-wrapper col-xs-12 col-sm-12 col-md-11 col-lg-11">           
+        
+        <!--upper half with message info-->
+        <div class="message-stat-wrapper">
+            <span class="msg-handle">{{message.handle}}:</span>
+            <span class="msg-username">@{{message.user}}</span>
+            <span class="msg-time">{{ formatTimestamp(message.time)}}</span>
+        </div>
+
+        <!--lower half with actual text-->
+        <div class="message-content-wrapper">
+            <span class="msg-text">{{ message.text }}</span>
+        </div>        
+    </div>
+
+</div>
